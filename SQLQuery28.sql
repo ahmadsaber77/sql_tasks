@@ -1,0 +1,7 @@
+SELECT TOP (1000) [EnrollmentID]
+      ,[StudentID]
+      ,[CourseID]
+      ,[EnrollmentDate]
+      ,[FinalGrade]
+      ,[CompletionStatus]
+  FROM [TrainingCenterDB].[dbo].[Enrollments]
